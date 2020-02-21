@@ -85,6 +85,7 @@ header {
 }
 main {
     width: 100%;
+	flex: 1 0 auto;
     clear: both;
 }
 .main-container {
@@ -102,7 +103,7 @@ footer {
     text-align: center;
     line-height: 1.5rem;
     clear: both;
-    flex: 1;
+    flex-shrink: 0;
 }
 footer .project-info{
     padding: 8px 20px;
